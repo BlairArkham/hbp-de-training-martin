@@ -112,13 +112,6 @@ To build a scalable, maintainable, and production-ready data pipeline that demon
 # 1. What Data Quality Issues I Identified
 
 ## Issue 1: Missing `resolved_at` Values
-
-### Why It Matters
-
-Open tickets have not yet been resolved, so there is no resolution date.
-
-### How to Handle It
-
-- Allow NULL values in `resolved_at`.
-- Do not fail validation.
-- Set `days_to_resolve` to NULL for unresolved tickets.
+## Issue 2: Dates Stored as Text
+## Issue 3: Categorical Columns Require Validation
+Issue 4: Ticket IDs Follow a Specific Pattern## 
